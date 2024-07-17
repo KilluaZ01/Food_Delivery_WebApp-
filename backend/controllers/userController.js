@@ -32,8 +32,8 @@ const registerUser = async (req, res) => {
     }
 
     // Hashing user password
-    const salt = await bycrypt.genSalt(10)
-    const hashedPassword = await bcrypt.hash(password, salt)S
+    const salt = await bycrypt.genSalt(10);
+    const hashedPassword = await bcrypt.hash(password, salt);
   }
 };
 
